@@ -588,6 +588,10 @@ body {
         gap: 12px 20px;
     }
 
+    .gallery-arrow {
+    display: none;
+    }
+    
 }
 
 @media (max-width: 520px) {
