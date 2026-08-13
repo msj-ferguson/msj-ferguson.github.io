@@ -305,6 +305,21 @@
             });
         };
     
+        const updateArrowVisibility = () => {
+            const maxScrollLeft =
+                gallery.scrollWidth - gallery.clientWidth;
+    
+            leftArrow.classList.toggle(
+                "hidden",
+                gallery.scrollLeft <= 5
+            );
+    
+            rightArrow.classList.toggle(
+                "hidden",
+                gallery.scrollLeft >= maxScrollLeft - 5
+            );
+        };
+    
         leftArrow.addEventListener("click", () => {
             scrollGallery(-1);
         });
@@ -312,6 +327,12 @@
         rightArrow.addEventListener("click", () => {
             scrollGallery(1);
         });
+    
+        gallery.addEventListener("scroll", updateArrowVisibility);
+    
+        window.addEventListener("resize", updateArrowVisibility);
+    
+        updateArrowVisibility();
     </script>
     
 </body>
