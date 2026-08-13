@@ -387,6 +387,23 @@ body {
     margin-bottom: 8px;
 }
 
+.documentation-preview {
+    padding: 70px 0;
+    text-align: center;
+    background-color: #f7f7f7;
+}
+
+.documentation-preview h2 {
+    margin-top: 0;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 2.25rem;
+}
+
+.documentation-preview p {
+    max-width: 650px;
+    margin: 0 auto 28px;
+    color: #555555;
+}
 
 /* FOOTER */
 
