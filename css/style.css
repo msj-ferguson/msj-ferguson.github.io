@@ -472,6 +472,51 @@ body {
     background-color: #f5f5f5;
 }
 
+/* PRIVACY */
+
+.privacy-section {
+    padding: 70px 0;
+}
+
+.privacy-container {
+    max-width: 850px;
+}
+
+.privacy-content {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 14px;
+    padding: 40px;
+}
+
+.privacy-updated {
+    color: #777777;
+    font-size: 0.9rem;
+    margin-top: 0;
+    margin-bottom: 35px;
+}
+
+.privacy-content h2 {
+    margin-top: 35px;
+    margin-bottom: 10px;
+
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.4rem;
+}
+
+.privacy-content h2:first-of-type {
+    margin-top: 0;
+}
+
+.privacy-content p {
+    color: #444444;
+}
+
+.privacy-content a {
+    color: #333333;
+    font-weight: 600;
+}
+
 
 /* MOBILE */
 
