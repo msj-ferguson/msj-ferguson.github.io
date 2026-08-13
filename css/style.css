@@ -423,6 +423,15 @@ body {
     .documentation-topic {
         padding: 22px;
     }
+
+    .form-row {
+    grid-template-columns: 1fr;
+    gap: 0;
+    }
+    
+    .support-form {
+        padding: 24px;
+    }
     
 }
 
