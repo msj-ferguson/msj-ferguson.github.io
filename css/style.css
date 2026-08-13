@@ -100,17 +100,17 @@ body {
     gap: 24px;
 }
 
-.gallery-placeholder {
-    min-height: 220px;
-    background-color: #f3f3f3;
+.gallery-item {
+    background-color: #ffffff;
     border: 1px solid #dddddd;
-    border-radius: 12px;
+    border-radius: 14px;
+    overflow: hidden;
+}
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    color: #777777;
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 
