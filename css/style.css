@@ -299,26 +299,6 @@ body {
     font-weight: 600;
 }
 
-/* MOBILE */
-
-@media (max-width: 900px) {
-
-    .header-content {
-        flex-direction: column;
-        padding: 18px 0;
-    }
-
-    .main-nav {
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 12px 20px;
-    }
-
-    .gallery {
-        grid-template-columns: repeat(2, 1fr);
-        max-width: 700px;
-    }
-}
 
 /* CONTACT SUPPORT */
 
@@ -403,6 +383,115 @@ body {
     text-align: center;
     color: #777777;
     font-size: 0.9rem;
+}
+
+
+/* THANK YOU PAGE */
+
+.thank-you-section {
+    padding: 90px 0;
+    background-color: #f7f7f7;
+}
+
+.thank-you-container {
+    max-width: 700px;
+}
+
+.thank-you-card {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 14px;
+
+    padding: 50px 40px;
+    text-align: center;
+}
+
+.thank-you-icon {
+    width: 60px;
+    height: 60px;
+
+    margin: 0 auto 25px;
+
+    border: 2px solid #555555;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 30px;
+}
+
+.thank-you-card h1 {
+    margin: 0 0 15px;
+
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 2.2rem;
+}
+
+.thank-you-message {
+    font-size: 1.1rem;
+}
+
+.thank-you-actions {
+    margin-top: 35px;
+
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.primary-link,
+.secondary-link {
+    display: inline-block;
+
+    padding: 12px 22px;
+    border-radius: 8px;
+
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.primary-link {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.primary-link:hover {
+    background-color: #555555;
+}
+
+.secondary-link {
+    border: 1px solid #cccccc;
+    color: #333333;
+    background-color: #ffffff;
+}
+
+.secondary-link:hover {
+    background-color: #f5f5f5;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 900px) {
+
+    .header-content {
+        flex-direction: column;
+        padding: 18px 0;
+    }
+
+    .main-nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px 20px;
+    }
+
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 700px;
+    }
 }
 
 @media (max-width: 520px) {
