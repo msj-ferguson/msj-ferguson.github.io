@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact Support | My Family Cookbook</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="site-header">
+        <div class="container header-content">
+
+            <div class="site-title">
+                My Family Cookbook
+            </div>
+
+            <nav class="main-nav">
+                <a href="index.html">Home</a>
+                <a href="index.html#documentation">Documentation</a>
+                <a href="faq.html">FAQ</a>
+                <a href="contact.html">Contact Support</a>
+            </nav>
+
+        </div>
+    </header>
+
+
+    <main>
+
+        <section class="page-hero">
+
+            <div class="container">
+
+                <h1>Contact Support</h1>
+
+                <p>
+                    Need help with My Family Cookbook? Send us a message
+                    and we'll be happy to help.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <section class="contact-section">
+
+            <div class="container contact-container">
+
+                <form
+                    class="support-form"
+                    action="YOUR-FORMSPREE-ENDPOINT"
+                    method="POST"
+                >
+
+                    <div class="form-group">
+
+                        <label for="name">
+                            Name
+                        </label>
+
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="email">
+                            Email Address
+                        </label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="topic">
+                            What do you need help with?
+                        </label>
+
+                        <select
+                            id="topic"
+                            name="topic"
+                            required
+                        >
+
+                            <option value="">
+                                Select a topic
+                            </option>
+
+                            <option value="General Question">
+                                General Question
+                            </option>
+
+                            <option value="Recipes">
+                                Recipes
+                            </option>
+
+                            <option value="Recipe Importing">
+                                Recipe Importing
+                            </option>
+
+                            <option value="Meal Planner">
+                                Meal Planner
+                            </option>
+
+                            <option value="Grocery List">
+                                Grocery List
+                            </option>
+
+                            <option value="iCloud Sync">
+                                iCloud Sync
+                            </option>
+
+                            <option value="Sharing">
+                                Sharing
+                            </option>
+
+                            <option value="Bug Report">
+                                Bug Report
+                            </option>
+
+                            <option value="Feature Request">
+                                Feature Request
+                            </option>
+
+                            <option value="Other">
+                                Other
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="message">
+                            How can we help?
+                        </label>
+
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="7"
+                            required
+                        ></textarea>
+
+                    </div>
+
+
+                    <div class="form-row">
+
+                        <div class="form-group">
+
+                            <label for="device">
+                                Device
+                            </label>
+
+                            <select
+                                id="device"
+                                name="device"
+                            >
+
+                                <option value="">
+                                    Select device
+                                </option>
+
+                                <option value="iPhone">
+                                    iPhone
+                                </option>
+
+                                <option value="iPad">
+                                    iPad
+                                </option>
+
+                                <option value="Mac">
+                                    Mac
+                                </option>
+
+                                <option value="Other">
+                                    Other
+                                </option>
+
+                            </select>
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="os-version">
+                                iOS / iPadOS / macOS Version
+                            </label>
+
+                            <input
+                                type="text"
+                                id="os-version"
+                                name="os-version"
+                                placeholder="Example: iOS 26.6"
+                            >
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="app-version">
+                            My Family Cookbook Version
+                        </label>
+
+                        <input
+                            type="text"
+                            id="app-version"
+                            name="app-version"
+                            placeholder="Example: 1.0"
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="steps">
+                            If you're reporting a problem, what happened?
+                        </label>
+
+                        <textarea
+                            id="steps"
+                            name="steps"
+                            rows="4"
+                            placeholder="Tell us what you were doing and what happened."
+                        ></textarea>
+
+                    </div>
+
+
+                    <button
+                        class="support-button"
+                        type="submit"
+                    >
+                        Send Support Request
+                    </button>
+
+
+                    <p class="form-note">
+                        Please do not include passwords, Apple ID credentials,
+                        or other sensitive account information.
+                    </p>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer class="site-footer">
+
+        <div class="container">
+
+            <p>
+                © 2026 My Family Cookbook
+            </p>
+
+            <nav class="footer-nav">
+
+                <a href="index.html">Home</a>
+                <a href="faq.html">FAQ</a>
+                <a href="contact.html">Contact Support</a>
+                <a href="privacy.html">Privacy</a>
+
+            </nav>
+
+        </div>
+
+    </footer>
+
+</body>
+</html>
