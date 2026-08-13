@@ -286,5 +286,33 @@
         </div>
     </footer>
 
+    <script>
+        const gallery = document.querySelector(".gallery");
+        const leftArrow = document.querySelector(".gallery-arrow-left");
+        const rightArrow = document.querySelector(".gallery-arrow-right");
+    
+        const scrollGallery = (direction) => {
+            const item = gallery.querySelector(".gallery-item");
+    
+            if (!item) return;
+    
+            const gap = 22;
+            const scrollAmount = item.offsetWidth + gap;
+    
+            gallery.scrollBy({
+                left: direction * scrollAmount,
+                behavior: "smooth"
+            });
+        };
+    
+        leftArrow.addEventListener("click", () => {
+            scrollGallery(-1);
+        });
+    
+        rightArrow.addEventListener("click", () => {
+            scrollGallery(1);
+        });
+    </script>
+    
 </body>
 </html>
