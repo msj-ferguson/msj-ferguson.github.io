@@ -78,6 +78,29 @@ body {
     color: #555555;
 }
 
+.hero-description {
+    max-width: 800px;
+    margin: 32px auto 0;
+
+    font-size: 1.05rem;
+    line-height: 1.75;
+    color: #555555;
+}
+
+.hero-description p {
+    margin: 0;
+}
+
+.hero-description .hero-tribute {
+    margin-top: 22px;
+
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.05rem;
+    font-style: italic;
+
+    color: #555555;
+}
+
 
 /* GALLERY */
 
