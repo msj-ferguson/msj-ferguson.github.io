@@ -306,9 +306,18 @@ body {
 .feature-icon {
     flex: 0 0 36px;
 
-    font-size: 24px;
-    text-align: center;
-    color: #444444;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    padding-top: 2px;
+}
+
+.feature-icon img {
+    width: 26px;
+    height: 26px;
+    object-fit: contain;
+    display: block;
 }
 
 .feature-item strong {
