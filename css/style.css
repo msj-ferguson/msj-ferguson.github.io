@@ -284,6 +284,56 @@ body {
     color: #444444;
 }
 
+/* DOCUMENTATION FEATURE LIST */
+
+.feature-list {
+    margin-top: 20px;
+}
+
+.feature-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 18px;
+
+    padding: 18px 0;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.feature-item:last-child {
+    border-bottom: none;
+}
+
+.feature-icon {
+    flex: 0 0 36px;
+
+    font-size: 24px;
+    text-align: center;
+    color: #444444;
+}
+
+.feature-item strong {
+    font-size: 1.05rem;
+}
+
+.feature-item p {
+    margin: 4px 0 0;
+}
+
+
+/* DOCUMENTATION TIP */
+
+.documentation-note {
+    margin-top: 25px;
+    padding: 18px 20px;
+
+    background-color: #f7f7f7;
+    border-left: 4px solid #999999;
+    border-radius: 6px;
+
+    color: #444444;
+}
+
+
 /* FOOTER */
 
 .site-footer {
