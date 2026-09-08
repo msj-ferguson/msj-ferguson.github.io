@@ -53,12 +53,12 @@
 
             <div class="container contact-container">
 
-                <form
-                    class="support-form"
-                    action="https://formspree.io/f/myegpzyv"
-                    method="POST"
-                >
-
+        <form
+            class="support-form"
+            action="https://formspree.io/f/myegpzyv"
+            method="POST"
+            enctype="multipart/form-data"
+        >
                     <div class="form-group">
 
                         <label for="name">
@@ -243,7 +243,26 @@
 
                     </div>
 
+                    <div class="form-group">
 
+                        <label for="screenshots">
+                            Attach Screenshots
+                        </label>
+
+                        <input
+                            type="file"
+                            id="screenshots"
+                            name="screenshots"
+                            accept="image/png, image/jpeg, image/heic, image/heif"
+                            multiple
+                        >
+
+                        <p class="form-help">
+                            Optional — attach screenshots that may help explain the problem.
+                        </p>
+
+                    </div>
+            
                     <button
                         class="support-button"
                         type="submit"
