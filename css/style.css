@@ -505,11 +505,21 @@ body {
     margin-bottom: 0;
 }
 
-.faq-answer a {
-    color: #333333;
-    font-weight: 600;
+.faq-answer a:link {
+    color: #0000EE;
 }
 
+.faq-answer a:visited {
+    color: #551A8B;
+}
+
+.faq-answer a:hover {
+    text-decoration: underline;
+}
+
+.faq-answer a:active {
+    color: #EE0000;
+}
 
 /* CONTACT SUPPORT */
 
